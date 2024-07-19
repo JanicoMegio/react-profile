@@ -1,24 +1,27 @@
 import resume from '../assets/document/Resume.pdf';
 
 function Experience() {
+
+  const recentExp = `I am currently open to accepting projects that align with my
+              skills and interests. Being a tech enthusiast, I specialize in web
+              development using frameworks such as Django. I have a strong
+              passion for creating dynamic and user-friendly web applications,
+              and my expertise extends to various aspects of information
+              technology.`
+
   return (
     <section className="mb-5" id="experience">
       <div className="container">
         <div className="card mb-4">
           <div className="card-body">
             <h5 className="fw-normal">
-              <span className="fw-bold">Freelance Web Developer</span>
+              <span className="fw-bold">Project-based Web Developer</span>
             </h5>
             <p className="fw-bold">
               <small>PRESENT</small>
             </p>
             <p>
-              I am currently open to accepting projects that align with my
-              skills and interests. Being a tech enthusiast, I specialize in web
-              development using frameworks such as Django. I have a strong
-              passion for creating dynamic and user-friendly web applications,
-              and my expertise extends to various aspects of information
-              technology.
+              {recentExp}
             </p>
           </div>
         </div>
