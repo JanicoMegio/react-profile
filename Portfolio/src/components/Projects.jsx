@@ -5,6 +5,7 @@ import Libro from "../assets/libro.jpg";
 function Projects() {
   return (
     <section className="mb-5" id="projects">
+      <h1 className="text-center py-5 fw-bold display-4">Projects</h1>
       <div className="container libro-main">
         <div className="card mb-3">
           <div className="row g-0">
@@ -98,7 +99,7 @@ function Projects() {
                     <p>Python</p>
                   </div>
                   <div className="col-4">
-                    <p>MySQL</p>
+                    <p>PostgreSQL</p>
                   </div>
                   <div className="col-4">
                     <p>JavaScript</p>
@@ -163,7 +164,7 @@ function Projects() {
                     <p>Python</p>
                   </div>
                   <div className="col-4">
-                    <p>SQLite</p>
+                    <p>PostgreSQL</p>
                   </div>
                   <div className="col-4">
                     <p>Tailwind CSS</p>
@@ -185,6 +186,9 @@ function Projects() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex text-center">
+      <a href="" className="more-projects">More Projects <i class="fa-solid fa-caret-right"></i></a>
       </div>
     </section>
   );

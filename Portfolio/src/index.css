@@ -7,7 +7,6 @@ body {
 }
 
 #content-end {
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.31);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -64,6 +63,19 @@ h5 {
 }
 
 .resume:hover {
+    color: #615e5e;
+}
+
+.more-projects {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    /* update to more projects*/
+    display: none;
+}
+
+.more-projects:hover{
     color: #615e5e;
 }
 
@@ -197,17 +209,10 @@ p {
 /* Base styles for the image */
 img.my-picture {
     position: relative;
-    filter: grayscale(100%);
-    overflow: hidden;
-    /* Ensure the gradient border doesn't overflow */
-    height: 250px;
-    width: 250px;
+    
     border-radius: 50%;
-    border: 10px solid #000000dc;
-}
+    overflow: hidden;
 
-/* Gradient border animation */
-img.my-picture:hover {
     transition: filter 1s ease-in-out;
     border: 10px solid transparent;
     filter: grayscale(0%);
@@ -217,6 +222,11 @@ img.my-picture:hover {
     -moz-animation: border-animation 12s ease infinite;
     -o-animation: border-animation 12s ease infinite;
     animation: border-animation 12s ease infinite;
+}
+
+/* Gradient border animation */
+img.my-picture:hover {
+    filter: grayscale(100%);
 }
 
 @-webkit-keyframes border-animation {

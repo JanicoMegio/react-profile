@@ -4,16 +4,16 @@ import reactJs from '../assets/Stack/react-js.svg';
 import bootStrap from '../assets/Stack/bootstrap.svg';
 import docker from '../assets/Stack/docker.svg';
 import git from '../assets/Stack/git.svg';
-import html5 from '../assets/Stack/html-5.svg';
+import figma from '../assets/Stack/figma.svg';
 import vite from '../assets/Stack/vite.svg';
 import javaScript from '../assets/Stack/javascript.svg';
 import postgreSql from '../assets/Stack/postgresql.svg';
 import tailWind from '../assets/Stack/tailwind-css.svg';
-import css from '../assets/Stack/css.svg';
+
 
 function Stacks(){
     return(
-        <div className="container mb-5 pb-5">
+        <div className="container pb-5">
             <h1 className="text-center py-5 fw-bold display-3" id="stack">Stack</h1>
             <div className="row gy-4 justify-content-center">
               <div className="col-4 col-md-3 col-lg-3">
@@ -96,20 +96,9 @@ function Stacks(){
               <div className="col-4 col-md-3 col-lg-3">
                 <div className="stock-icons text-center">
                   <img
-                    src={html5}
+                    src={figma}
                     className="img-fluid"
-                    alt="html-5"
-                    height="65"
-                    width="65"
-                  />
-                </div>
-              </div>
-              <div className="col-4 col-md-3 col-lg-3">
-                <div className="stock-icons text-center">
-                  <img
-                    src={css}
-                    className="img-fluid"
-                    alt="css"
+                    alt="figma"
                     height="65"
                     width="65"
                   />

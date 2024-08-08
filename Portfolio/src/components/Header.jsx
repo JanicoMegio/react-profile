@@ -11,7 +11,7 @@ function Header() {
       <h2>Hi, I'm</h2>
       <h1 className="text-start fw-bold display-5">Janico Megio</h1>
       <h2 className="text-start mb-3">
-        a Web <span className="helloworld">Developer</span>
+        a Full-Stack <span className="helloworld">Developer</span>
       </h2>
       <div className="container mb-5 social-link">
         <a
